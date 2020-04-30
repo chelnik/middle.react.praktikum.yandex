@@ -1,0 +1,7 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.rendererType": "dom"
+    "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe"
+//D:\Git\bin\bash.exe
+//"C:\\Program Files\\Git\\bin\\bash.exe"
+}
