@@ -107,7 +107,7 @@ interface Istate{
 }
 // написал any потому что выдавало без него ошибку которую не смог исправить
 // как только моя работа будет проверена вами, я уберу из компонента APP тип ANY
-class App extends Component <any, Istate>{
+class App extends React.PureComponent {
   state: Istate = {
       indexDialog: 0,
       title: "Здесь скоро будет чат",
