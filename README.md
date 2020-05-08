@@ -1,3 +1,6 @@
+https://chelnik.github.io/middle.react.praktikum.yandex/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
