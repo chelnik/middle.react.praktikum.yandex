@@ -1,5 +1,5 @@
 import React from "react";
-import "./App4.css"; //Нужно задать стили
+import "./App4.css";
 import "./Messenger.css"
 import Plashka from "./Plashka"
 import ConversationList from "./ConversationList"
@@ -7,13 +7,11 @@ import {plashkaDATA} from "./Data"
 
 export interface Istate{
   indexDialog: number;
-  title: string;
 }
 
 class App extends React.PureComponent {
   state: Istate = {
       indexDialog: 0,
-      title: "Здесь скоро будет чат",
     }
   onClickBlock(index:number){
       this.setState({indexDialog: index})
@@ -40,7 +38,6 @@ class App extends React.PureComponent {
 
         <div className="scrollable content">
         <ConversationList
-         title={this.state.title}
          indexDialog={this.state.indexDialog}
           >
         </ConversationList>

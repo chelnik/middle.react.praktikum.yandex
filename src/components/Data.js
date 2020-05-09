@@ -1,4 +1,3 @@
-// import React, { Component } from "react";
 export const plashkaDATA = [
     {
       date: (new Date()),

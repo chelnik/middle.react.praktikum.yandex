@@ -36,9 +36,3 @@
     grid-column-start: 2;
     background: white;
   }
-
-  /* КОНТЕЙНЕР ДЛЯ СИСКА СООБЩЕНИЙ */
-  .message-list-container {
-    padding: 10px;
-    padding-bottom: 70px;
-  }

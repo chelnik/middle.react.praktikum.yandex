@@ -1,4 +1,4 @@
-/* ЭТО ПЛАШКА */
+/* Плашка*/
 .conversation-list-item {
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
     margin: 0;
   }
 
-/* ЭТО СПИСОК ЧАТО */
+/* Список чатов */
   .conversation-list {
     display: flex;
     flex-direction: column;
