@@ -8,11 +8,10 @@ interface Iprops{
     text: string;
     photo: string;
     date: Date;
-    onClickBlock: any;
+    onClickBlock: ()=> void;
 }
 
 function Plashka(props: Iprops){
-  // console.log(props)
   let Arr = tempMessages[props.index]
   let lastMesage = Arr[Arr.length-1].message
   let timestamp = Arr[Arr.length-1].timestamp
@@ -24,7 +23,6 @@ function Plashka(props: Iprops){
              <h1 className="conversation-title">{props.name}</h1>
              <p className="conversation-snippet">{lastMesage}</p>
              <p className="conversation-snippet">{timestamp}</p>
-             {/* <p>{props.text}</p> */}
            </div>
          </div>
        </div>
