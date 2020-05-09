@@ -20,8 +20,7 @@ class ConversationList extends Component <Istate>{
                <div className="conversation-info">
                     <h1 className="conversation-title">{item.author}</h1>
                      <p className="conversation-snippet">{item.message}</p>
-                     {/* <p className="conversation-snippet">{item.timestamp + item.id}</p> */}
-                     <h3>{new Date ().toLocaleTimeString("en-US")}</h3>
+                     <h3>{item.timestamp}</h3>
                </div>
             </div>
                

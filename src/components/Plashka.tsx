@@ -15,6 +15,7 @@ function Plashka(props: Iprops){
   // console.log(props)
   let Arr = tempMessages[props.index]
   let lastMesage = Arr[Arr.length-1].message
+  let timestamp = Arr[Arr.length-1].timestamp
     return(
        <div className="wrapperPlashka">
        <div className="conversation-list-item" onClick={props.onClickBlock}>
@@ -22,6 +23,7 @@ function Plashka(props: Iprops){
            <div className="conversation-info">
              <h1 className="conversation-title">{props.name}</h1>
              <p className="conversation-snippet">{lastMesage}</p>
+             <p className="conversation-snippet">{timestamp}</p>
              {/* <p>{props.text}</p> */}
            </div>
          </div>
@@ -29,4 +31,3 @@ function Plashka(props: Iprops){
     )
    }
 export default Plashka
-// lastMesage=
