@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App4.css"; //Нужно задать стили
 import "./Messenger.css"
 import Plashka from "./Plashka"
@@ -27,6 +27,7 @@ class App extends React.PureComponent {
       
         {plashkaDATA.map((item, index) => (
           <Plashka
+            index={index}
             key={index}
             name={item.name} 
             text={item.text}

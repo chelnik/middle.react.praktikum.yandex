@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 export const plashkaDATA = [
     {
       date: (new Date()),
@@ -21,14 +21,14 @@ export    const tempMessages = [
       [
        {
          id: 1,
-         author: 'apple',
-         message: `Это чат с уникальным сгенерированным идентификатором: ${Math.round(Math.random()*100)}`,
+         author: 'JORJE',
+         message: `Тут мне пришлось попотетьи придумать цифру: ${Math.round(Math.random()*100)}`,
          timestamp: new Date().getTime()
        },
        {
          id: 2,
-         author: 'orange',
-         message: 'It looks like it wraps exactly as it is supposed to. Lets see what a reply looks like!',
+         author: 'BEATLES',
+         message: 'Я так горжусь тобой',
          timestamp: new Date().getTime()
        },
 
@@ -36,14 +36,14 @@ export    const tempMessages = [
      [
       {
         id: 1,
-        author: 'Получилось',
-        message: `Это чат с уникальным сгенерированным идентификатором: ${Math.round(Math.random()*100)}`,
+        author: 'OSTAP',
+        message: `Представляешь я написал сообщение с уникальной цифрой: ${Math.round(Math.random()*100)}`,
         timestamp: new Date().getTime()
       },
       {
         id: 2,
-        author: 'Получилось дааааааааааааа!!!!!!!!',
-        message: 'В атакууууу',
+        author: 'vLADILEN',
+        message: 'Привет как дела это сообщение последнее, когда напишешь?',
         timestamp: new Date().getTime()
       },
 

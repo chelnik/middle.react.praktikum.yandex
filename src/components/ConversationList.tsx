@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import {tempMessages} from "./Data"
-import {plashkaDATA} from "./Data"
+// import {plashkaDATA} from "./Data"
 export interface Istate{
     indexDialog: number;
     title: string;
